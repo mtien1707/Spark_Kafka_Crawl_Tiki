@@ -1,0 +1,25 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="objs.constants" />
+          <option value="objs.bubble_file" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.bubble_file.objs" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.bubble_file.BUBBLE_COLORS" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.bubble_file.BUBBLE_RADIUS" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.bubble_file.BG_COLOR" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.bubble_file.display" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.bubble_file.BUBBLE_VEL" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.bubble_file.DISP_W" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.bubble_file.DISP_H" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.bubble_file.pg" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.game_objects.objs" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.grid_file.objs" />
+          <option value="CuoiKyPython.CuoiKyPython.objs.shooter_file.objs" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,2140 @@
+2022-08-17 09:46:02 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.17.80.26:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = huyvv20-java-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-17 09:46:03 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-17 09:46:03 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-17 09:46:03 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660704363196
+2022-08-17 09:46:03 [main] INFO  Producer:31 - Starting load ...
+2022-08-17 09:46:13 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:46:34 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-17 09:46:34 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:48:01 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = huyvv20-java-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-17 09:48:01 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-17 09:48:01 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-17 09:48:01 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660704481716
+2022-08-17 09:48:01 [main] INFO  Producer:31 - Starting load ...
+2022-08-17 09:48:03 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:48:03 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:48:05 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:48:05 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:48:08 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:48:08 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:48:10 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:48:10 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:48:12 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:48:12 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:48:15 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:48:15 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:48:18 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:48:18 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:10 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = huyvv20-java-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-17 09:59:10 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-17 09:59:10 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-17 09:59:10 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660705150467
+2022-08-17 09:59:10 [main] INFO  Producer:31 - Starting load ...
+2022-08-17 09:59:12 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:12 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:14 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:14 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:16 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:16 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:19 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:19 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:21 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:21 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:24 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:24 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:27 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:27 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:30 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:30 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:33 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:33 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:36 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:36 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:40 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:40 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 09:59:42 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 09:59:42 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 10:00:46 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-17 10:00:46 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-17 10:00:46 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-17 10:00:46 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660705246691
+2022-08-17 10:00:46 [main] INFO  Producer:30 - Starting load ...
+2022-08-17 10:00:48 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:776 - [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 10:00:48 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:1060 - [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 10:00:50 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:776 - [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 10:00:50 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:1060 - [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 10:00:53 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:776 - [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 10:00:53 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:1060 - [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 10:00:55 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:776 - [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 10:00:55 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:1060 - [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 10:00:57 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:776 - [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 10:00:57 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:1060 - [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 10:01:00 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:776 - [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-08-17 10:01:00 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:1060 - [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2022-08-17 10:59:45 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.17.80.29:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = huyvv20-java-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-17 10:59:45 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-17 10:59:45 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-17 10:59:45 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660708785858
+2022-08-17 10:59:45 [main] INFO  Producer:31 - Starting load ...
+2022-08-17 10:59:46 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1100 - [Producer clientId=huyvv20-java-producer] Error while fetching metadata with correlation id 1 : {huyvv20_tiki=LEADER_NOT_AVAILABLE}
+2022-08-17 10:59:46 [kafka-producer-network-thread | huyvv20-java-producer] INFO  Metadata:279 - [Producer clientId=huyvv20-java-producer] Cluster ID: _SL_OZiuQGilSMiv-EZ_Ag
+2022-08-17 10:59:46 [main] INFO  KafkaProducer:1204 - [Producer clientId=huyvv20-java-producer] Closing the Kafka producer with timeoutMillis =9223372036854775807 ms.
+2022-08-17 10:59:46 [main] INFO  Metrics:659 - Metrics scheduler closed
+2022-08-17 10:59:46 [main] INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-08-17 10:59:46 [main] INFO  Metrics:669 - Metrics reporters closed
+2022-08-17 10:59:46 [main] INFO  AppInfoParser:83 - App info kafka.producer for huyvv20-java-producer unregistered
+2022-08-17 10:59:46 [main] INFO  Producer:46 - Finish
+2022-08-18 10:11:27 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.17.80.24:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = huyvv20-java-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-18 10:11:28 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-18 10:11:28 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-18 10:11:28 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660792288357
+2022-08-18 10:11:28 [main] INFO  Producer:31 - Starting load ...
+2022-08-18 10:11:28 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1100 - [Producer clientId=huyvv20-java-producer] Error while fetching metadata with correlation id 1 : {huyvv20_tiki=LEADER_NOT_AVAILABLE}
+2022-08-18 10:11:28 [kafka-producer-network-thread | huyvv20-java-producer] INFO  Metadata:279 - [Producer clientId=huyvv20-java-producer] Cluster ID: a3qV-QxVSI2DjIcijwSpPg
+2022-08-18 10:11:35 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_312]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:35 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:35 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:35 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:36 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:37 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:38 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:39 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:40 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:41 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:42 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:11:43 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.access$600(NetworkClient.java:73) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1158) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:1046) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:559) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:327) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:40 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.17.80.24:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = huyvv20-java-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-18 10:20:41 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-18 10:20:41 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-18 10:20:41 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660792841192
+2022-08-18 10:20:41 [main] INFO  Producer:31 - Starting load ...
+2022-08-18 10:20:41 [kafka-producer-network-thread | huyvv20-java-producer] INFO  Metadata:279 - [Producer clientId=huyvv20-java-producer] Cluster ID: a3qV-QxVSI2DjIcijwSpPg
+2022-08-18 10:20:41 [main] INFO  KafkaProducer:1204 - [Producer clientId=huyvv20-java-producer] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2022-08-18 10:20:48 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_312]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:48 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:48 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:48 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:48 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:49 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:50 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:51 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:52 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:53 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:54 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:55 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:56 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:57 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:20:58 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:06 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_312]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:06 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:07 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:08 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:09 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:10 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:11 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:12 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:13 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:14 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:22 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_312]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:22 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:23 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:24 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:25 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:26 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:27 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:29 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:30 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:30 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:21:58 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.17.80.24:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-18 10:21:59 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-18 10:21:59 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-18 10:21:59 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660792919046
+2022-08-18 10:21:59 [main] INFO  Producer:31 - Starting load ...
+2022-08-18 10:21:59 [kafka-producer-network-thread | producer-1] INFO  Metadata:279 - [Producer clientId=producer-1] Cluster ID: a3qV-QxVSI2DjIcijwSpPg
+2022-08-18 10:21:59 [main] INFO  KafkaProducer:1204 - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2022-08-18 10:22:06 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_312]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:06 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:06 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:06 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:06 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:07 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:08 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:10 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:11 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:11 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:12 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:13 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:22:14 [kafka-producer-network-thread | producer-1] WARN  NetworkClient:992 - [Producer clientId=producer-1] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:27:25 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.17.80.26:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = huyvv20-java-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-18 10:27:25 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-18 10:27:25 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-18 10:27:25 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660793245390
+2022-08-18 10:27:25 [main] INFO  Producer:31 - Starting load ...
+2022-08-18 10:27:27 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:27:27 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:27:29 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:27:29 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:27:31 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:27:31 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:27:33 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:27:33 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:27:36 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:27:36 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:27:39 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:27:39 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:27:42 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:27:42 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:27:45 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:27:45 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:27:48 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:27:48 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:27:51 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:27:51 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:33:40 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.17.80.26:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = huyvv20-java-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-18 10:33:40 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-18 10:33:40 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-18 10:33:40 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660793620517
+2022-08-18 10:33:40 [main] INFO  Producer:31 - Starting load ...
+2022-08-18 10:33:42 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:33:42 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:33:44 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:776 - [Producer clientId=huyvv20-java-producer] Connection to node -1 (/172.17.80.26:9092) could not be established. Broker may not be available.
+2022-08-18 10:33:44 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1060 - [Producer clientId=huyvv20-java-producer] Bootstrap broker 172.17.80.26:9092 (id: -1 rack: null) disconnected
+2022-08-18 10:33:55 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.17.80.24:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = huyvv20-java-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-18 10:33:55 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-18 10:33:55 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-18 10:33:55 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660793635865
+2022-08-18 10:33:55 [main] INFO  Producer:31 - Starting load ...
+2022-08-18 10:33:56 [kafka-producer-network-thread | huyvv20-java-producer] INFO  Metadata:279 - [Producer clientId=huyvv20-java-producer] Cluster ID: a3qV-QxVSI2DjIcijwSpPg
+2022-08-18 10:33:56 [main] INFO  KafkaProducer:1204 - [Producer clientId=huyvv20-java-producer] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2022-08-18 10:34:02 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_312]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:242) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:34:02 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:34:03 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:34:03 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:34:03 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:34:04 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:34:05 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:992 - [Producer clientId=huyvv20-java-producer] Error connecting to node slave3:9092 (id: 0 rack: null)
+java.net.UnknownHostException: slave3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_312]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_312]
+	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:111) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:513) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:467) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:172) ~[kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:985) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:311) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.sendProducerData(Sender.java:353) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:326) [kafka-clients-2.8.1.jar:?]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:255) [kafka-clients-2.8.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+2022-08-18 10:55:22 [main] INFO  ProducerConfig:372 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = huyvv20-java-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-18 10:55:23 [main] INFO  AppInfoParser:119 - Kafka version: 2.8.1
+2022-08-18 10:55:23 [main] INFO  AppInfoParser:120 - Kafka commitId: 839b886f9b732b15
+2022-08-18 10:55:23 [main] INFO  AppInfoParser:121 - Kafka startTimeMs: 1660794923289
+2022-08-18 10:55:23 [main] INFO  Producer:31 - Starting load ...
+2022-08-18 10:55:23 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1100 - [Producer clientId=huyvv20-java-producer] Error while fetching metadata with correlation id 1 : {huyvv20_tiki=LEADER_NOT_AVAILABLE}
+2022-08-18 10:55:23 [kafka-producer-network-thread | huyvv20-java-producer] INFO  Metadata:279 - [Producer clientId=huyvv20-java-producer] Cluster ID: k2X8REUNQOO4KWQQPXCciQ
+2022-08-18 10:55:23 [kafka-producer-network-thread | huyvv20-java-producer] WARN  NetworkClient:1100 - [Producer clientId=huyvv20-java-producer] Error while fetching metadata with correlation id 3 : {huyvv20_tiki=LEADER_NOT_AVAILABLE}
+2022-08-18 10:55:24 [main] INFO  KafkaProducer:1204 - [Producer clientId=huyvv20-java-producer] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2022-08-18 10:55:24 [main] INFO  Metrics:659 - Metrics scheduler closed
+2022-08-18 10:55:24 [main] INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-08-18 10:55:24 [main] INFO  Metrics:669 - Metrics reporters closed
+2022-08-18 10:55:24 [main] INFO  AppInfoParser:83 - App info kafka.producer for huyvv20-java-producer unregistered
+2022-08-18 10:55:24 [main] INFO  Producer:46 - Finish
